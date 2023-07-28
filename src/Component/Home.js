@@ -1,10 +1,12 @@
 import React from "react";
 
 function Home(props) {
-  console.warn('Props',props);
+  console.warn('Props',props
+  );
   return (
     <>
-      <div className="add-cart">
+      <div className="add-cart" >
+        <span className="Cart-count">h</span>
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQRTh7fOkgg_rX-jYuZjXf3Sgm1NMiyhgRiA&usqp=CAU" />
       </div>
       <h1>Home Component</h1>
